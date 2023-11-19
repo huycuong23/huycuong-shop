@@ -10,7 +10,9 @@
         max-width: 100%;
     }
 }
-
+body {
+    overflow-x: hidden;
+}
 
 /* tablet >= 740 and < 1024 */
 @media screen and (min-width: 46.25em) and (max-width: 64em) {
@@ -40,6 +42,12 @@
 @media screen and (max-width: 46.1875em)  {
     .app {
         max-width: 100%;
+    }
+    .home-header {
+        display: none;
+    }
+    .grid__column-2-0 {
+        width: 33.33333333333333%;
     }
     .header__search-select-laybel {
         display: none;
